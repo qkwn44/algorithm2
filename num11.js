@@ -6,11 +6,10 @@
 function soultion(str) {
   let answer = 0;
   for (let x of str) {
-    let num = x.charCodeAt(); //아스키 코드 입력
-    // if (x === x.toUpperCase()) answer++;
+    if (x === x.toUpperCase()) answer++;
     // console.log(x.toUpperCase(), x); //콘솔창을 통해 들어 가는 값 확인 가능
   }
-  return answer; https://github.com/qkwn44/Algorithm.git https://github.com/qkwn44/Algorithm.git
+  return answer;
 }
 
 let str = "KoreaTimeGood";
