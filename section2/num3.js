@@ -14,6 +14,7 @@ function solution(A, B) {
   }
   return answer;
 }
+
 //논리연산자 && 사용해서 양쪽 모두 참이어야 true가 반환된다. 하나라도 거짓일 경우 else if / else 로 넘어간다
 let A = [2, 3, 3, 1, 3];
 let B = [1, 1, 2, 2, 3];
